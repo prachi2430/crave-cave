@@ -1,12 +1,13 @@
 
 
+import './App.css'
 import Logo from './components/Logo'
 import React from 'react'
+import HomePage from './components/HomePage'
 const App = () => {
   return (
     <>
-     <Logo></Logo>
-      <div> crave cave</div>
+      <HomePage></HomePage>
 
     </>
   )
